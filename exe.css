@@ -1,0 +1,76 @@
+*{
+    border: 1px solid black;
+}
+
+body{
+    margin: 0px;
+    background: rgb(186, 224, 218);
+    /* height: 400vh; */
+    position: relative;
+}
+header{
+background-color: aquamarine;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100vw;
+top: 0;
+}
+
+header ul{
+display: flex;
+list-style: none;
+width: 600px;
+justify-content: space-evenly;
+
+}
+
+header li{
+text-decoration: none;
+}
+
+main{
+margin-top: 100px;
+}
+
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .image img{
+    width: 800px;
+}
+
+.home article{
+    background-color: azure;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.produk{
+    padding-inline: 40px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-produk{
+    border: 1px solid;
+    width: 200px;
+}
+
+.card-produk img{
+    width: 200px;
+}
+
+.layanan-kami{
+    padding-inline: 40px;
+}
